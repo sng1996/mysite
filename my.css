@@ -1,0 +1,142 @@
+/*@media screen and (max-width : 400px) {
+    body {
+        background: lightblue;
+    }
+}
+
+@media screen and (min-width : 400px){
+    body {
+        background-image: url("main.jpg");
+        background-size: cover;
+    }
+}*/
+
+.img {
+    background: url("static/main1.jpg") no-repeat center top;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -20px;
+}
+
+.img-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(139,90,43,0.3);
+}
+
+.navbar {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 0px;
+    border: hidden;
+}
+
+.maintext {
+    font-family: "Helvetica Neue";
+    text-align: center;
+    padding-top: 30vh;
+    color: white;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.toptext {
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.followers-block {
+    margin-top: -20px;
+    width: 100vw;
+    height: 250px;
+    background: rgb(139,69,19);
+}
+
+.followers-header {
+    font-family: "Helvetica Neue";
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.products-block {
+    margin-top: -20px;
+    width: 100vw;
+    height: 1000px;
+}
+
+.products-header {
+    font-family: "Helvetica Neue";
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.light_div {
+    background-color: rgba(220, 220, 220, 0.3);
+    height: 400px;
+    text-align: center;
+}
+
+.dark_div {
+    background-color: rgba(211, 211, 211, 0.4);
+    height: 400px;
+    text-align: center;
+}
+
+.products-icon {
+    height: 150px;
+    margin-top: 60px;
+}
+
+.products-text {
+    font-family: "Helvetica Neue";
+    text-align: center;
+    font-weight: 500;
+}
+
+.saying-block {
+    height: 700px;
+}
+
+.saying-header {
+    font-family: "Helvetica Neue";
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.saying-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.saying-text {
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.comp-block {
+}
+
+.comp-icon {
+    height: 80px;
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(139,69,19);
+}
