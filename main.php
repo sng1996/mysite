@@ -8,40 +8,39 @@
     <link href="my.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header" style="margin-left: 10vw">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Главная</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a class="toptext" href="#">Продукты</a></li>
-                <li><a class="toptext" href="#">Блог</a></li>
-                <li><a class="toptext" href="#">О нас</a></li>
-                <li><a class="toptext" href="#">Отзывы</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right" style="margin-right: 10vw;">
-                <li><a class="toptext" href="#">Войти</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
 <div class="img">
     <div class="img-overlay">
-        <h1 class="maintext">Our mission is to make money</h1>
-        <h1 class="maintext" style="padding-top: 0px">fast and easy</h1>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header" style="margin-left: 5vw">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="/static/business-training.png" height="30px">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 10vw;">
+                        <li><a class="toptext" href="#">Продукты</a></li>
+                        <li><a class="toptext" href="#">Блог</a></li>
+                        <li><a class="toptext" href="#">О нас</a></li>
+                        <li><a class="toptext" href="#">Отзывы</a></li>
+                        <li>
+                            <form class="navbar-form navbar-right">
+                                <button type="submit" class="btn btn-default">Подписаться</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <h1 class="maintext">Наша миссия</h1>
+        <h1 class="maintext" style="padding-top: 0px">зарабатывать деньги</h1>
+        <h1 class="maintext" style="padding-top: 0px">быстро и легко</h1>
     </div>
 </div>
 <div class="followers-block">
-    <h1 class="followers-header">Join Over 2,749,513 Success Seekers</h1>
+    <h1 class="followers-header">К нам уже присоединились 2,749,513 счастливчиков</h1>
     <div class="col-md-10 col-md-offset-2" style="margin-top: 20px;">
         <div class="col-md-2" style="text-align: center">
             <img src="static/mail_icon.png" height="50px">
@@ -66,21 +65,21 @@
     </div>
 </div>
 <div class="products-block">
-    <h1 class="products-header">What do we do to improve today?</h1>
+    <h1 class="products-header">Что ты хочешь зарядить сегодня?</h1>
     <div class="col-md-6 light_div">
         <img src="static/man.png" class="products-icon">
-        <h1 class="products-text">Я</h1>
-        <h4 class="products-text">Развитие личности и саморазвитие</h4>
+        <h1 class="products-text">Заряди себя</h1>
+        <h4 class="products-text">Развитие собственных компетенций</h4>
     </div>
     <div class="col-md-6 dark_div">
         <img src="static/team.png" class="products-icon">
-        <h1 class="products-text">Команда</h1>
-        <h4 class="products-text">Развитие личности и саморазвитие</h4>
+        <h1 class="products-text">Заряди команду</h1>
+        <h4 class="products-text">Навыки управления людьми</h4>
     </div>
     <div class="col-md-6 dark_div">
         <img src="static/business.png" class="products-icon">
-        <h1 class="products-text">Бизнес</h1>
-        <h4 class="products-text">Развитие личности и саморазвитие</h4>
+        <h1 class="products-text">Заряди клиентов</h1>
+        <h4 class="products-text">Эффективные взаимоотношения с клиентом</h4>
     </div>
     <div class="col-md-6 light_div">
         <img src="static/trener.png" class="products-icon">
@@ -89,7 +88,7 @@
     </div>
 </div>
 <div class="saying-block">
-    <h1 class="saying-header">Что говорят наши клиенты о нас</h1>
+    <h1 class="saying-header">Отзывы клиентов</h1>
     <div style="float:left; margin-top:30px;">
         <div class="col-md-offset-1 col-md-1">
             <img src="static/avatar.png" class="saying-icon">

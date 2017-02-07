@@ -11,12 +11,16 @@
     }
 }*/
 
+@font-face {
+    font-family: Helvetica Custom; /* Гарнитура шрифта */
+    src: url(/static/HelveticaNeueCyr-UltraLight.otf); /* Путь к файлу со шрифтом */
+}
+
 .img {
     background: url("static/main1.jpg") no-repeat center top;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    margin-top: -20px;
 }
 
 .img-overlay {
@@ -26,41 +30,53 @@
 }
 
 .navbar {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0);
     border-radius: 0px;
     border: hidden;
 }
 
 .maintext {
-    font-family: "Helvetica Neue";
+    /*font-family: "Helvetica Neue";*/
+    font-family: "Helvetica Custom";
     text-align: center;
-    padding-top: 30vh;
+    padding-top: 10vh;
     color: white;
     font-size: 80px;
     font-weight: 100;
 }
 
 .navbar-brand {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Custom";
     font-weight: 300;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .toptext {
-    font-family: "Helvetica Neue";
-    font-weight: 300;
+    font-family: "Helvetica Custom";
+    font-weight: 700;
     font-size: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
 }
 
 .followers-block {
     margin-top: -20px;
     width: 100vw;
     height: 250px;
-    background: rgb(139,69,19);
+    /*background: rgb(139,69,19);*/
+    background: rgb(0,99,65);
 }
 
 .followers-header {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Custom";
     text-align: center;
     padding-top: 30px;
     color: white;
@@ -75,7 +91,7 @@
 }
 
 .products-header {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Custom";
     text-align: center;
     padding-top: 40px;
     color: black;
@@ -102,9 +118,9 @@
 }
 
 .products-text {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Custom";
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .saying-block {
@@ -112,7 +128,7 @@
 }
 
 .saying-header {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Custom";
     text-align: center;
     color: black;
     font-size: 50px;
