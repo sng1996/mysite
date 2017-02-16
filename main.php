@@ -88,9 +88,11 @@
         <h4 class="products-text">Развитие личности и саморазвитие</h4>
     </div>-->
     <div class="col-md-4 light_div">
-        <img src="static/man.png" class="products-icon">
-        <h1 class="products-text">Заряди себя</h1>
-        <h4 class="products-text">Развитие собственных компетенций</h4>
+        <a class="products-block" href="ZaryadiSebya.php">
+            <img src="static/man.png" class="products-icon">
+            <h1 class="products-text">Заряди себя</h1>
+            <h4 class="products-text">Развитие собственных компетенций</h4>
+        </a>
     </div>
     <div class="col-md-4 dark_div">
         <img src="static/team.png" class="products-icon">
@@ -106,38 +108,39 @@
 <a name="saying"></a>
 <div class="saying-block">
     <h1 class="saying-header">Отзывы клиентов</h1>
-    <div style="float:left; margin-top:30px;">
-        <div class="col-md-offset-1 col-md-1">
+    <div style="float:left; margin-top:30px; width: 50vw">
+        <div class="col-md-1">
             <img src="static/avatar.png" class="saying-icon">
         </div>
-        <div class="col-md-8 col-md-offset-1">
+        <div class="col-md-9 col-md-offset-2">
             <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
         </div>
     </div>
-    <div style="float:right; margin-top:30px;">
-        <div class="col-md-8 col-md-offset-1">
-            <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
-        </div>
-        <div class="col-md-offset-1 col-md-1">
+    <div style="float:right; margin-top:30px; width: 50vw">
+        <div class="col-md-1">
             <img src="static/avatar.png" class="saying-icon">
         </div>
-    </div>
-    <div style="float:left; margin-top:30px;">
-        <div class="col-md-offset-1 col-md-1">
-            <img src="static/avatar.png" class="saying-icon">
-        </div>
-        <div class="col-md-8 col-md-offset-1">
+        <div class="col-md-9 col-md-offset-2">
             <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
         </div>
     </div>
-    <div style="float:right; margin-top:30px;">
-        <div class="col-md-8 col-md-offset-1">
-            <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
-        </div>
-        <div class="col-md-offset-1 col-md-1">
+    <div style="float:left; margin-top:30px; width: 50vw">
+        <div class="col-md-1">
             <img src="static/avatar.png" class="saying-icon">
         </div>
+        <div class="col-md-9 col-md-offset-2">
+            <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
+        </div>
     </div>
+    <div style="float:right; margin-top:30px; width: 50vw">
+        <div class="col-md-1">
+            <img src="static/avatar.png" class="saying-icon">
+        </div>
+        <div class="col-md-9 col-md-offset-2">
+            <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
+        </div>
+    </div>
+
 </div>
 <div class="comp-block">
     <h1 class="products-header">Компании, с которыми мы работаем</h1>
@@ -170,8 +173,11 @@
 <div>
     <h1 class="products-header">Кто мы?</h1>
     <h3 class="products-text">Мы команда безнес-тренеров, которая поможет вам стать счастливее</h3>
-    <div class="col-md-offset-3 col-md-3" style="margin-top: 20px; text-align: center">
+    <div class="col-md-offset-3 col-md-3" style="margin-top: 20px; text-align: center;">
         <img src="static/Arkadiy.png" height="350px">
+    </div>
+    <div class="col-md-3" style="margin-top: 20px; text-align: center;">
+        <img src="static/roma.png" height="350px">
     </div>
     <div class="personal-block">
         <div class="col-md-offset-3 col-md-3" style="text-align: center">
@@ -181,9 +187,9 @@
             <img src="static/linkedin.png" height="20px" style="margin-left:10px">
             <img src="static/skype_icon.png" height="20px" style="margin-top: 5px; margin-left: 10px">
         </div>
-        <div class="col-md-3" style="text-align: center">
+        <div class="col-md-3" style="text-align: center; margin-left: 20px;">
             <h3>Роман Рычажков</h3>
-            <h4 class="products-text">Бизнес-тренер</h4>
+            <h4 class="products-text">Бизнес-блогер</h4>
             <img src="static/facebook_icon_green.png" height="20px">
             <img src="static/linkedin.png" height="20px" style="margin-left:10px">
             <img src="static/skype_icon.png" height="20px" style="margin-top: 5px; margin-left: 10px">

@@ -99,6 +99,14 @@
     height: 600px;
 }
 
+a.products-block {
+    color: black;
+}
+
+a.products-block:hover {
+    text-decoration: none;
+}
+
 .products-header {
     font-family: "Helvetica Custom";
     text-align: center;
@@ -224,41 +232,133 @@
 }
 
 .blog-header {
-    font-family: "Helvetica Custom";
-    font-weight: bold;
     text-align: center;
+    font-family: "Helvetica Custom";
+    font-weight: 100;
+    color: black;
+    font-size: 40px;
+    margin: 40px;
+    margin-top: 100px;
+}
+
+.blog-head {
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: 300;
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+    margin: 20px;
 }
 
 .blog-text {
-    font-family: "Tahoma";
-    font-weight: normal;
+    font-family: "Helvetica";
+    font-weight: 300;
+    margin: 20px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
 }
 
 .blog{
     background-color: white;
-    width: 30vw;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     float: left;
     transition: box-shadow, .5s;
     margin: 20px;
+    padding-bottom: 20px;
 }
 
 .blog:hover {
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-.blog-head {
+
+a.tag {
+    color: black;
+    font-size: 30px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+}
+
+a.tag:hover {
+    text-decoration: none;
+    color: rgb(0,99,65);
+}
+
+p.tag {
+    color: black;
+    font-size: 40px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+}
+
+.left-panel {
+    position: fixed;
+    border: 0px;
+    border-right: 1px;
+    border-right-color: rgba(111, 111, 111, 0.3);
+    height: 100vh;
+    border-style: solid;
+}
+
+.left-panel > div {
+    margin-top: 40px;
+}
+
+.left-panel > div > a.active {
+    color: rgb(0,99,65);
+}
+
+.left-panel > div > a {
+    color: black;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.left-panel > div > a:hover {
+    color: rgb(0,99,65);
+    text-decoration: none;
+}
+
+.left-panel > div > h3 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: 100;
+    color: black;
+}
+
+.right-panel {
+    margin-top: 100px;
+}
+
+.right-panel > h1{
     text-align: center;
     font-family: "Helvetica Custom";
     font-weight: 100;
     color: black;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
-.blog-head:hover {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(0,99,65);
+.right-panel > p{
+    margin-top: 10px;
+    font-family: "Helvetica";
+    font-weight: 300;
+    color: black;
+    font-size: 18px;
 }
+
+.right-panel > h3{
+    font-family: "Helvetica";
+}
+
+.right-panel > ul{
+    margin-top: 20px;
+    font-family: "Helvetica";
+    font-weight: 300;
+    color: black;
+    font-size: 18px;
+}
+
+
