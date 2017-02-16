@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" style="margin-right: 2vw;">
                 <li><a class="toptext" href="main.php#products">Продукты</a></li>
-                <li><a class="toptext" href="#">Блог</a></li>
+                <li><a class="toptext" href="">Блог</a></li>
                 <li><a class="toptext" href="main.php#about">О нас</a></li>
                 <li><a class="toptext" href="main.php#saying">Отзывы</a></li>
                 <li style="margin-left: 5vw">
