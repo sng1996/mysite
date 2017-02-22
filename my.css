@@ -147,7 +147,7 @@ a.products-block:hover {
 }
 
 .saying-block {
-    height: 700px;
+    height: 500px;
 }
 
 .saying-header {
@@ -171,7 +171,7 @@ a.products-block:hover {
 }
 
 .comp-block {
-    height: 500px;
+    height: 550px;
 }
 
 .comp-icon {
@@ -225,8 +225,8 @@ a.products-block:hover {
 }
 
 .btn-custom:hover {
-    color: white;
-    border-color: white;
+    color: rgb(0,99,65);
+    border-color: rgb(0,99,65);
     background-color: rgba(255,255,255,0);
     box-shadow: none;
 }
@@ -328,11 +328,11 @@ p.tag {
     color: black;
 }
 
-.right-panel {
-    margin-top: 100px;
+.product {
+    margin-top: 80px;
 }
 
-.right-panel > h1{
+.product > h1{
     text-align: center;
     font-family: "Helvetica Custom";
     font-weight: 100;
@@ -341,7 +341,16 @@ p.tag {
     margin-bottom: 20px;
 }
 
-.right-panel > p{
+.product > h2{
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: 500;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.product > div > p{
     margin-top: 10px;
     font-family: "Helvetica";
     font-weight: 300;
@@ -349,11 +358,11 @@ p.tag {
     font-size: 18px;
 }
 
-.right-panel > h3{
+.product > h3{
     font-family: "Helvetica";
 }
 
-.right-panel > ul{
+.product > div > ul{
     margin-top: 20px;
     font-family: "Helvetica";
     font-weight: 300;

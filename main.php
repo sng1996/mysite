@@ -132,7 +132,7 @@
             <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
         </div>
     </div>
-    <div style="float:right; margin-top:30px; width: 50vw">
+    <div style="float:right; margin-top:30px; width: 50vw;">
         <div class="col-md-1">
             <img src="static/avatar.png" class="saying-icon">
         </div>
@@ -140,7 +140,9 @@
             <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
         </div>
     </div>
-
+</div>
+<div style="text-align: center; padding-top: 30px;">
+    <a href="#" class="btn btn-sm btn-custom">Все отзывы</a>
 </div>
 <div class="comp-block">
     <h1 class="products-header">Компании, с которыми мы работаем</h1>
@@ -169,6 +171,9 @@
         <img src="static/google.png" class="comp-icon">
     </div>
 </div>
+<div style="text-align: center; margin-top: 30px;">
+    <a href="#" class="btn btn-sm btn-custom">Все компании</a>
+</div>
 <a name="about"></a>
 <div>
     <h1 class="products-header">Кто мы?</h1>
@@ -195,6 +200,9 @@
             <img src="static/skype_icon.png" height="20px" style="margin-top: 5px; margin-left: 10px">
         </div>
     </div>
+</div>
+<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="#" class="btn btn-sm btn-custom">О нас</a>
 </div>
 <div class="bottom-block">
     <div class="bottom-left">
