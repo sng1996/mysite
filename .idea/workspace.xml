@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d27822e5-2049-4092-a3a3-2f983fccf31a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.php" afterPath="$PROJECT_DIR$/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my.css" afterPath="$PROJECT_DIR$/my.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +81,7 @@
       <file leaf-file-name="my.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="1125">
               <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
               <folding />
             </state>
@@ -800,7 +798,7 @@
       <workItem from="1491226865219" duration="314000" />
       <workItem from="1491251638432" duration="5155000" />
       <workItem from="1491282744668" duration="11400000" />
-      <workItem from="1491374743622" duration="13313000" />
+      <workItem from="1491374743622" duration="13651000" />
     </task>
     <task id="LOCAL-00001" summary=" new, add some text to products">
       <created>1491413336370</created>
@@ -809,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491413336370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" new, add some text to products">
+      <created>1491413978540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491413978540</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103569000" />
+    <option name="totallyTimeSpent" value="103907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1415,7 +1420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="1125">
           <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
           <folding />
         </state>
