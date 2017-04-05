@@ -37,10 +37,6 @@
                 </div>
             </div>
         </nav>
-        <div class="col-md-6">
-            <h1 class="maintext">Хочешь изменений - бери и делай!</h1>
-            <h5 class="maintext-sm" style="padding-top: 30px">«Зарядка» бизнес навыков и компетенций. Все, что необходимо для эффективной работы и развития карьеры.</h5>
-        </div>
         <div class="col-md-6" style="align-items: center">
             <div class="under-right-panel-csm">
             </div>
@@ -55,6 +51,10 @@
                 </form>
             </div>
         </div>
+    <div class="col-md-6">
+        <h1 class="maintext">Хочешь изменений - бери и делай!</h1>
+        <h5 class="maintext-sm" style="padding-top: 30px">«Зарядка» бизнес навыков и компетенций. Все, что необходимо для эффективной работы и развития карьеры.</h5>
+    </div>
     <!--</div>-->
 </div>
 <a name="products"></a>
