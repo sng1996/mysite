@@ -8,121 +8,114 @@
     <link href="my.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: rgb(244, 244, 244)">
-    <div class="container-fluid">
-        <div class="navbar-header" style="margin-left: 2vw">
-            <a class="navbar-brand" href="main.php">
-                <img alt="Brand" src="/static/business-training.png" height="30px">
-            </a>
-        </div>
+<div class="background-custom" style="height: 1700px">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header" style="margin-left: 4vw; width: 40vw;">
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="/static/zaryadka_icon.png" height="40px">
+                    <div style="margin-top: 25px; width: 300px; margin-left: 50px;">
+                        <a href="#" class="header-text-custom">Бизнес зарядка</a>
+                    </div>
+                </a>
+            </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right" style="margin-right: 2vw;">
-                <li><a class="toptext" href="main.php#products">Продукты</a></li>
-                <li><a class="toptext" href="blog.php">Блог</a></li>
-                <li><a class="toptext" href="main.php#about">О нас</a></li>
-                <li><a class="toptext" href="main.php#saying">Отзывы</a></li>
-                <li style="margin-left: 5vw">
-                    <form class="navbar-form navbar-right">
-                        <a href="#" class="btn btn-sm btn-custom">Подписаться</a>
-                    </form>
-                </li>
-            </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="margin-right: 2vw;">
+                    <li><a class="toptext" href="#products">Продукты</a></li>
+                    <li><a class="toptext" href="blog.php">Блог</a></li>
+                    <li><a class="toptext" href="#about">О нас</a></li>
+                    <li><a class="toptext" href="#saying">Отзывы</a></li>
+                    <li style="margin-left: 5vw">
+                        <form class="navbar-form navbar-right">
+                            <a href="#" class="btn btn-sm btn-custom">Войти</a>
+                        </form>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
-<!--<div>
-    <div class="col-md-3 left-panel">
-        <div><h3>Программы:</h3></div>
-        <div><a class="active">Формат убедительных продаж</a></div>
-        <div><a>Эффективные переговоры</a></div>
-        <div><a>Искусство публичного выступления</a></div>
-        <div><a>Личная эффективность. Как успевать работать и жить</a></div>
-        <div><a>Тайм менеджмент</a></div>
-    </div>
-    <div class="col-md-3"></div>
-    <div class="col-md-9 right-panel">
-        <h1>Курс "Формат убедительных продаж"</h1>
-        <p>Специалист с качественными навыками продаж
-            - это всегда ценность для компании. Так же, как и большинство компетенций,
-            умению продавать можно и нужно учиться. Основная цель курса помочь участникам структурировать
-            знания и отработать навыки продаж. Хорошие продавцы - это профессионалы, которые на практике
-            применяют структурированный подход при подготовке и проведении продажи.
-        </p>
-        <h3>Преимуществом данного курса является:</h3>
-        <ul>
-            <li>Практическая привязка. По ходу тренинга участник прорабатывает на практике свою персональную рабочую задачу.
-                По итогам курса у него получается готовая к работе идея, которую он сможет использовать в диалоге со своим клиентом.</li>
-            <li>Возможность использовать полученные знания как в ежедневной рабочей практики, так и в личной жизни, сохраняя деньги и время.
-            </li>
-        </ul>
-        <h3>Краткое содержание курса</h3>
-        <ul>
-            <li>Роль менеджера по продажам</li>
-            <li>Постановка цели</li>
-            <li>Определение потребностей</li>
-            <li>Построение пирамиды ключевых потребностей</li>
-            <li>Основные навыки коммуникации</li>
-            <li>Вопросы в продажах</li>
-            <li>Формат убедительных продаж:</li>
-            <ul>
-                <li>Ситуация</li>
-                <li>Большая идея</li>
-                <li>Как это работает</li>
-                <li>Усиление ключевых преимуществ</li>
-                <li>Легкий шаг</li>
-                <li>Закрытие</li>
-            </ul>
-            <li>Практические упражнения «А у моего клиента все по другому…»</li>
-            <li>Работа с возражениями</li>
-        </ul>
-        <h3>В результате тренинга участники получают:</h3>
-        <ul>
-            <li>Роль и ответственность менеджера по продажам</li>
-            <li>Умение работать с продаже товаров и идей</li>
-            <li>Разрабатывать структурированную коммерческую продажу</li>
-            <li>Фокусироваться на преимуществах</li>
-            <li>Выявлять и использовать ключевые интересы</li>
-            <li>Эффективно использовать техники задавания вопросов</li>
-            <li>Преодолевать возражения</li>
-            <li>Доводить продажу до логического конца</li>
-        </ul>
-        <h3>Формат проведения:</h3>
-        <p>В курсе применяется большое количество примеров, основанных на реальных ситуациях.
-            Все полученные знания закрепляются практическими упражнениями. Максимальная группа 16 человек.
-            Курс помогает в максимально короткие сроки научить человека успешно продавать.</p>
-        <h3>Продолжительность тренинга:</h3>
-        <p>1.5 дня, 12 часов</p>
-    </div>
-</div>-->
-<div class="product">
-    <h1 style="text-align: center">Курс "Формат убедительных продаж"</h1>
-    <h2 style="text-align: center">Хочешь изменений? БЕРИ И ДЕЛАЙ!</h2>
-    <div class="col-md-8">
-        <p>Специалист с эффективными навыками продаж - это всегда ценность для компаний.
-            Хорошие «продажники» на дороге не валяются и стоят дорого.
-            Также, как и большинству компетенций, умению продавать можно и нужно учиться.</p>
-        <p>Цель курса - помочь участникам увеличить количество успешных продаж, отработать формат убедительной продажи на практике.</p>
-    </div>
-    <div class="col-md-4" style="text-align: center">
-        <img src="static/up.jpg" style="height: 180px">
-    </div>
-    <div class="col-md-4">
-        <img src="static/born.jpg" style="height: 300px">
-    </div>
-    <div class="col-md-8">
-        <h3>Преимущества курса:</h3>
-        <ul>
-            <li>Практичность и привязка к реальным задачам.
-                Этот курс не про то, как «космические корабли бороздят…».
-                На тренинге участник отрабатывает формат убедительной продажи на своем примере.
-                И по итогу, у него на руках есть идея, выверенная и готовая к использованию.</li>
-            <li>Формат доказал эффективность как при продаже товаров, так и идей, как при работе с палаткой на рынке,
-                так и с большой международной компанией.</li>
-            <li>Полученные знания можно использовать в ежедневной рабочей практике и личной жизни, сохраняя силы, деньги и время.</li>
-        </ul>
-        <p>Хорошие продавцы - это профессионалы, способны найти решение самых амбициозных задач в работе с клиентом.</p>
+    </nav>
+    <div class="product">
+        <h1>Заряди себя</h1>
+        <div class="under-panel">
+        </div>
+        <div style="float: left; margin-left: 10vw; position: relative;">
+            <div style="background: white; height: 700px; width: 35vw; padding-top: 50px; border-radius: 5px;">
+                <div style="background-color: rgb(245,243,244); height:170px; width: 35vw; text-align: center; padding-top: 45px;">
+                    <img src="/static/format.png" height="80px">
+                </div>
+                <div>
+                    <div style="height: 300px;">
+                        <h2>Формат убедительных продаж</h2>
+                        <h3>Специалист с эффективными навыками продаж - это всегда ценность для компаний. Хорошие «продажники» на дороге не валяются и стоят дорого. Также, как и большинству компетенций, умению продавать можно и нужно учиться. </h3>
+                        <br>
+                        <h3>Цель курса - помочь участникам увеличить количество успешных продаж, отработать формат убедительной продажи на практике.</h3>
+                    </div>
+                    <div style="text-align: center; margin-top: 40px;">
+                        <a href="#" class="btn btn-sm btn-custom" style="width:250px;">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="under-panel" style="margin-left: 58vw">
+        </div>
+        <div style="float: right; margin-right: 10vw; position: relative;">
+            <div style="background: white; height: 700px; width: 35vw; padding-top: 50px; border-radius: 5px;">
+                <div style="background-color: rgb(245,243,244); height:170px; width: 35vw; text-align: center; padding-top: 45px;">
+                    <img src="/static/work_and_live.png" height="80px">
+                </div>
+                <div>
+                    <div style="height: 300px;">
+                        <h2>Персональная эффективность. Как успевать работать и жить.</h2>
+                        <h3>Постоянное личное развитие – залог успеха в жизни. Выработка привычек эффективности позволяют добиваться значительных результатов на работе и в личной жизни. Курс про то как работать с осознанностью и умением уделять приоритет важным делам. Развитие инициативности и ответственности.</h3>
+                    </div>
+                        <div style="text-align: center; margin-top: 40px;">
+                            <a href="#" class="btn btn-sm btn-custom" style="width:250px;">Подробнее</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="under-panel" style="margin-top: 1098px">
+        </div>
+        <div style="float: left; margin-left: 10vw; margin-top: 50px; position: relative;">
+            <div style="background: white; height: 700px; width: 35vw; padding-top: 50px; border-radius: 5px;">
+                <div style="background-color: rgb(245,243,244); height:170px; width: 35vw; text-align: center; padding-top: 45px;">
+                    <img src="/static/voice.png" height="80px">
+                </div>
+                <div>
+                    <div style="height: 300px;">
+                        <h2>Искусство публичных выступлений</h2>
+                        <h3>В современном мире одной из ключевых компетенций становится умение ясно, кратко, красочно донести свою идею до аудитории.</h3>
+                        <br>
+                        <h3>Этот курс будет полезен, если Вы и Ваши сотрудники регулярно выступают на собраниях и совещаниях с коллегами, руководителями или подчиненными. Ведут переговоры с внешними и внутренними клиентами. Участвуют в конференциях и бизнес-презентациях.</h3>
+                    </div>
+                    <div style="text-align: center; margin-top: 40px;">
+                        <a href="#" class="btn btn-sm btn-custom" style="width:250px;">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="under-panel" style="margin-top: 1098px; margin-left: 58vw">
+        </div>
+        <div style="float: right; margin-right: 10vw; margin-top: 50px; position: relative;">
+            <div style="background: white; height: 700px; width: 35vw; padding-top: 50px; border-radius: 5px;">
+                <div style="background-color: rgb(245,243,244); height:170px; width: 35vw; text-align: center; padding-top: 45px;">
+                    <img src="/static/creative.png" height="80px">
+                </div>
+                <div>
+                    <div style="height: 300px;">
+                        <h2>Сила творческой мысли</h2>
+                        <h3>Способность мыслить нешаблонно делает нас находчивыми, предприимчивыми, остроумными, успешными, удачливыми и богатыми. Умение смотреть на задачи с позиции креативности пригодится во всех сферах жизни.</h3>
+                        <br>
+                        <h3>Творческое мышление -  это навык. Он поддается развитию. Знания и навыки креативности приобретаются не на генетическом уровне, а накапливаются в течении жизни. На тренинге мы сможем разгадать секреты творческих людей.</h3>
+                    </div>
+                    <div style="text-align: center; margin-top: 40px;">
+                        <a href="#" class="btn btn-sm btn-custom" style="width:250px;">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <script src="jquery.min.js"></script>

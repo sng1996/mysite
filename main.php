@@ -8,13 +8,16 @@
     <link href="my.css" rel="stylesheet">
 </head>
 <body>
-<div class="img">
-    <div class="img-overlay">
-        <nav class="navbar navbar-default" role="navigation">
+<div class="background-custom">
+    <!--<div class="img-overlay">-->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
-                <div class="navbar-header" style="margin-left: 2vw">
+                <div class="navbar-header" style="margin-left: 4vw; width: 40vw;">
                     <a class="navbar-brand" href="#">
-                        <img alt="Brand" src="/static/business-training.png" height="30px">
+                            <img alt="Brand" src="/static/zaryadka_icon.png" height="40px">
+                            <div style="margin-top: 25px; width: 300px; margin-left: 50px;">
+                                <a href="#" class="header-text-custom">Бизнес зарядка</a>
+                            </div>
                     </a>
                 </div>
 
@@ -27,73 +30,43 @@
                         <li><a class="toptext" href="#saying">Отзывы</a></li>
                         <li style="margin-left: 5vw">
                             <form class="navbar-form navbar-right">
-                                <a href="#" class="btn btn-sm btn-custom">Подписаться</a>
+                                <a href="#" class="btn btn-sm btn-custom">Войти</a>
                             </form>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <h1 class="maintext">Наша миссия</h1>
-        <h1 class="maintext" style="padding-top: 0px">зарабатывать деньги</h1>
-        <h1 class="maintext" style="padding-top: 0px">быстро и легко</h1>
-    </div>
-</div>
-<div class="followers-block">
-    <h1 class="followers-header">К нам уже присоединились 2,749,513 счастливчиков</h1>
-    <div class="col-md-10 col-md-offset-2" style="margin-top: 20px;">
-        <div class="col-md-2" style="text-align: center">
-            <img class="followers-icons" src="static/mail_icon.png">
-            <h3 style="color: white;">1,345,356</h3>
+        <div class="col-md-6">
+            <h1 class="maintext">Хочешь изменений - бери и делай!</h1>
+            <h5 class="maintext-sm" style="padding-top: 30px">«Зарядка» бизнес навыков и компетенций. Все, что необходимо для эффективной работы и развития карьеры.</h5>
         </div>
-        <div class="col-md-2" style="text-align: center">
-            <img class="followers-icons" src="static/facebook_icon.png">
-            <h3 style="color: white;">1,345,356</h3>
+        <div class="col-md-6" style="align-items: center">
+            <div class="under-right-panel-csm">
+            </div>
+            <div class="right-panel-csm">
+                <h3>Оформи подписку</h3>
+                <img alt="Brand" src="/static/zaryadka_icon.png" height="70px">
+                <form style="margin-top:20px;">
+                    <input class="input-csm" type="email" placeholder="email">
+                    <input class="input-csm" type="text" placeholder="name">
+                    <input class="input-csm" type="password" placeholder="password">
+                    <input class="btn btn-sm btn-custom" style="width: 20vw; margin-top:25px; height:50px" type="submit">
+                </form>
+            </div>
         </div>
-        <div class="col-md-2" style="text-align: center">
-            <img class="followers-icons" src="static/twitter_icon.png">
-            <h3 style="color: white;">1,345,356</h3>
-        </div>
-        <div class="col-md-2" style="text-align: center">
-            <img class="followers-icons" src="static/youtube_icon.png">
-            <h3 style="color: white;">1,345,356</h3>
-        </div>
-        <div class="col-md-2" style="text-align: center">
-            <img class="followers-icons" src="static/vk_icon.png">
-            <h3 style="color: white;">1,345,356</h3>
-        </div>
-    </div>
+    <!--</div>-->
 </div>
 <a name="products"></a>
 <div class="products-block">
     <h1 class="products-header">Что ты хочешь зарядить сегодня?</h1>
-    <!--<div class="col-md-6 light_div">
-        <img src="static/man.png" class="products-icon">
-        <h1 class="products-text">Заряди себя</h1>
-        <h4 class="products-text">Развитие собственных компетенций</h4>
-    </div>
-    <div class="col-md-6 dark_div">
-        <img src="static/team.png" class="products-icon">
-        <h1 class="products-text">Заряди команду</h1>
-        <h4 class="products-text">Навыки управления людьми</h4>
-    </div>
-    <div class="col-md-6 dark_div">
-        <img src="static/business.png" class="products-icon">
-        <h1 class="products-text">Заряди клиентов</h1>
-        <h4 class="products-text">Эффективные взаимоотношения с клиентом</h4>
-    </div>
-    <div class="col-md-6 light_div">
-        <img src="static/trener.png" class="products-icon">
-        <h1 class="products-text">Тренер</h1>
-        <h4 class="products-text">Развитие личности и саморазвитие</h4>
-    </div>-->
-    <div class="col-md-4 light_div">
-        <a class="products-block" href="ZaryadiSebya.php">
+    <a class="products-block" href="ZaryadiSebya.php">
+        <div class="col-md-4 light_div">
             <img src="static/man.png" class="products-icon">
             <h1 class="products-text">Заряди себя</h1>
             <h4 class="products-text">Развитие собственных компетенций</h4>
-        </a>
-    </div>
+        </div>
+    </a>
     <div class="col-md-4 dark_div">
         <img src="static/team.png" class="products-icon">
         <h1 class="products-text">Заряди команду</h1>
@@ -108,40 +81,40 @@
 <a name="saying"></a>
 <div class="saying-block">
     <h1 class="saying-header">Отзывы клиентов</h1>
-    <div style="float:left; margin-top:30px; width: 50vw">
-        <div class="col-md-1">
-            <img src="static/avatar.png" class="saying-icon">
+    <div style="margin-top:50px; margin-left: 50px">
+        <div class="col-md-2" style="text-align: center">
+            <img src="static/Hafizulin_Artur.jpg" class="saying-icon">
+            <h3 class="saying-text-name">Хафизулин Артур</h3>
         </div>
-        <div class="col-md-9 col-md-offset-2">
-            <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
-        </div>
-    </div>
-    <div style="float:right; margin-top:30px; width: 50vw">
-        <div class="col-md-1">
-            <img src="static/avatar.png" class="saying-icon">
-        </div>
-        <div class="col-md-9 col-md-offset-2">
-            <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
+        <div class="col-md-8 col-md-offset-1">
+            <h3 class="saying-text">Огромное спасибо за организацию и проведение тренинга «Сила творческой мысли»!  Мы отправляли на тренинг самых креативных сотрудников, но то, какие идеи они стали разрабатывать и запускать после тренинга не идет ни в какое сравнение с тем, что было до этого. Радуга мышления помогла им раскрыться, а количество сформулированных идей и проектов во время тренинга достигло, если я не ошибаюсь, 400! Часть их них, порядка 12, была детально проработана и 4 проекта были запущены, что помогло нам преодолеть турбулентность рынка, возникшую из-за новых регуляторных изменений и выполнить поставленные перед нами задачи</h3>
+            <h3 class="saying-text" style="float:right">Директор по продажам ООО «Новартис Консьюмер Хелс»</h3>
         </div>
     </div>
-    <div style="float:left; margin-top:30px; width: 50vw">
-        <div class="col-md-1">
-            <img src="static/avatar.png" class="saying-icon">
+    <div style="margin-top:400px; margin-left: 50px">
+        <div class="col-md-2" style="text-align: center">
+            <img src="static/Kataev_Alex.jpg" class="saying-icon">
+            <h3 class="saying-text-name">Катаев Алексей</h3>
         </div>
-        <div class="col-md-9 col-md-offset-2">
-            <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
+        <div class="col-md-8 col-md-offset-1">
+            <h3 class="saying-text">Training course Advanced Negotiation skills was excellent combination of Negotiation technics and practical tasks with video shooting what helped to my managers understand what they need to improve to really get from their customers what Company wants. And what is even more important that this course is really applicable for wider group of participants than usual KA or Sales teams. My marketing and medical people are participating there as well and really understood what they need to improve in own collaboration with external and internal customers. All feedbacks given were extremely positive, so I kindly recommend this training for roll out in various business, not only in FMCG environment.</h3>
+            <h3 class="saying-text" style="float:right">Commercial Operations Director – The Janssen Pharmaceutical Companies of Johnson & Johnson</h3>
         </div>
     </div>
-    <div style="float:right; margin-top:30px; width: 50vw;">
-        <div class="col-md-1">
-            <img src="static/avatar.png" class="saying-icon">
+    <div style="margin-top:750px; margin-left: 50px">
+        <div class="col-md-2" style="text-align: center">
+            <img src="static/Korotaev_Yuriy.jpg" class="saying-icon">
+            <h3 class="saying-text-name">Юрий Коротаев</h3>
         </div>
-        <div class="col-md-9 col-md-offset-2">
-            <h3 class="saying-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna placerat, faucibus ipsum in, dapibus enim. Donec dapibus nibh non sem imperdiet interdum. Curabitur nec quam molestie, viverra urna sit amet, posuere nisi. Duis feugiat luctus lacus vel laoreet. Praesent a mattis mauris. Nunc porta mi nulla, non sodales felis tincidunt id.</h3>
+        <div class="col-md-8 col-md-offset-1">
+            <h3 class="saying-text">Хочу поблагодарить за два наишикарнейших трейнинга («Time management. Эффективность.
+                Как достигать результатов» и «Business Writing») , которые запали в душу всем нашим сотрудникам. Благодарю за подготовку и проведение! Огромное спасибо!
+            </h3>
+            <h3 class="saying-text" style="float:right">General Manager EE, Duracell</h3>
         </div>
     </div>
 </div>
-<div style="text-align: center; padding-top: 30px;">
+<div style="text-align: center; margin-bottom: 50px;">
     <a href="#" class="btn btn-sm btn-custom">Все отзывы</a>
 </div>
 <div class="comp-block">
@@ -175,9 +148,9 @@
     <a href="#" class="btn btn-sm btn-custom">Все компании</a>
 </div>
 <a name="about"></a>
-<div>
+<div style="background: rgba(240, 240, 245, 1); margin-top: 80px;">
     <h1 class="products-header">Кто мы?</h1>
-    <h3 class="products-text">Мы команда безнес-тренеров, которая поможет вам стать счастливее</h3>
+    <h3 class="products-text">Мы команда бизнес-тренеров, которая поможет вам стать счастливее</h3>
     <div class="col-md-offset-3 col-md-3" style="margin-top: 20px; text-align: center;">
         <img src="static/Arkadiy.png" height="350px">
     </div>
@@ -201,7 +174,7 @@
         </div>
     </div>
 </div>
-<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+<div style="text-align: center; margin-top:0px; margin-bottom: 30px;">
     <a href="#" class="btn btn-sm btn-custom">О нас</a>
 </div>
 <div class="bottom-block">
