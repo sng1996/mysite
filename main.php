@@ -13,10 +13,10 @@
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header" style="margin-left: 4vw; width: 40vw;">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="main.php">
                             <img alt="Brand" src="/static/zaryadka_icon.png" height="40px">
                             <div style="margin-top: 25px; width: 300px; margin-left: 50px;">
-                                <a href="#" class="header-text-custom">Бизнес зарядка</a>
+                                <a href="main.php" class="header-text-custom">Бизнес зарядка</a>
                             </div>
                     </a>
                 </div>
@@ -67,16 +67,20 @@
             <h4 class="products-text">Развитие собственных компетенций</h4>
         </div>
     </a>
+    <a class="products-block" href="zaryadikomandu.php">
     <div class="col-md-4 dark_div">
         <img src="static/team.png" class="products-icon">
         <h1 class="products-text">Заряди команду</h1>
         <h4 class="products-text">Навыки управления людьми</h4>
     </div>
+    </a>
+    <a class="products-block" href="zaryadiclientov.php">
     <div class="col-md-4 light_div">
         <img src="static/business.png" class="products-icon">
         <h1 class="products-text">Заряди клиентов</h1>
         <h4 class="products-text">Эффективные взаимоотношения с клиентом</h4>
     </div>
+    </a>
 </div>
 <a name="saying"></a>
 <div class="saying-block">

@@ -493,5 +493,41 @@ p.tag {
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
+.course-more h1{
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 60px;
+    margin-top: 130px;
+}
 
+.course-more h3{
+    text-align: left;
+    font-family: "Helvetica";
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
 
+.course-more p, ul{
+    text-align: left;
+    font-family: "Helvetica";
+    font-weight: 300;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.course-more ul {
+    margin-top: 0px;
+}
+
+.course-more ul {
+    margin-bottom: 10px;
+}
