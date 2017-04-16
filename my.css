@@ -275,17 +275,49 @@ a.products-block:hover {
     height: 550px;
 }
 
+.comp-block a{
+    display: block;
+    background-size: cover;
+    margin-top: 60px;
+    background: url('static/google.png');
+    height: 80px;
+    width: 230px;
+}
+
+.comp-block a#alidi{
+    margin-top: 60px;
+    background: url('companies/alidi1.jpg');
+    height: 80px;
+    width: 230px;
+}
+
+
 .comp-icon {
     height: 80px;
     text-align: center;
     margin-top: 60px;
     color: rgb(139,69,19);
+
 }
 
 .personal-block{
     height: 150px;
     background-color: white;
     margin-top: 380px;
+}
+
+.personal-block a{
+    float: left;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    background: rgb(51, 51, 51);
+    padding: 9px;
+    margin-right: 40px;
+}
+
+.personal-block a:hover{
+    background: rgb(68,157,47);
 }
 
 .bottom-block{
@@ -432,6 +464,7 @@ p.tag {
 .product {
     margin-top: 70px;
     padding-top: 80px;
+    height: 1600px;
 }
 
 .product > h1{
@@ -531,3 +564,130 @@ p.tag {
 .course-more ul {
     margin-bottom: 10px;
 }
+
+.go-top {
+    font-family: "Helvetica";
+    font-weight: 100;
+    width: 10vw;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    bottom: 0vh;
+    opacity: 0;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    text-align: center;
+    background: rgba(68,157,47, 0);
+    border: 0px solid black;
+    line-height: 18px;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+}
+
+.go-top:hover{
+    background: rgba(68,157,47, 0.05);
+}
+
+.custom-bar{
+    width: 100vw;
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    left: 0vh;
+    background: white;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+.custom-bar div{
+    text-align: center;
+}
+
+.custom-line{
+    position: relative;
+    width: 33.3vw;
+    height: 5px;
+    top: 65px;
+    left: 0px;
+    background: rgb(68,157,47);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.custom-bar p{
+    margin-top: 20px;
+    color: rgb(51, 51, 51);
+    font-family: "Helvetica";
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.icon-custom:hover{
+    background-image: url("static/linkedin.png");
+}
+
+.person-info-page{
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+
+.person-info-page > p{
+    font-family: "Helvetica";
+    font-weight: 300;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+}
+
+.person-info{
+    margin-left: 26vw;
+}
+
+.person-info h1{
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.person-info div{
+    float: left;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    background: rgb(51, 51, 51);
+    padding: 9px;
+    margin-right: 40px;
+}
+
+.person-info p{
+    padding-top: 7px;
+    font-family: "Helvetica";
+    font-weight: 300;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+}
+
+.person-info img{
+    height: 20px;
+}
+
+.person-info a:hover > div{
+    background: rgb(68,157,47);
+}
+
+.person-info a:hover{
+    text-decoration: none;
+}
+
+div:hover > .icon{
+    opacity: 0;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+

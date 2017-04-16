@@ -55,9 +55,9 @@
         <h1 class="maintext">Хочешь изменений - бери и делай!</h1>
         <h5 class="maintext-sm" style="padding-top: 30px">«Зарядка» бизнес навыков и компетенций. Все, что необходимо для эффективной работы и развития карьеры.</h5>
     </div>
-    <!--</div>-->
+    <div class="go-top">go to top</div>
 </div>
-<a name="products"></a>
+<a name="products" style="color: white">products</a>
 <div class="products-block">
     <h1 class="products-header">Что ты хочешь зарядить сегодня?</h1>
     <a class="products-block" href="ZaryadiSebya.php">
@@ -67,14 +67,14 @@
             <h4 class="products-text">Развитие собственных компетенций</h4>
         </div>
     </a>
-    <a class="products-block" href="zaryadikomandu.php">
+    <a class="products-block" href="ZaryadiSebya.php#go-team">
     <div class="col-md-4 dark_div">
         <img src="static/team.png" class="products-icon">
         <h1 class="products-text">Заряди команду</h1>
         <h4 class="products-text">Навыки управления людьми</h4>
     </div>
     </a>
-    <a class="products-block" href="zaryadiclientov.php">
+    <a class="products-block" href="ZaryadiSebya.php#go-clients">
     <div class="col-md-4 light_div">
         <img src="static/business.png" class="products-icon">
         <h1 class="products-text">Заряди клиентов</h1>
@@ -82,7 +82,7 @@
     </div>
     </a>
 </div>
-<a name="saying"></a>
+<a name="saying" style="color: white">products</a>
 <div class="saying-block">
     <h1 class="saying-header">Отзывы клиентов</h1>
     <div style="margin-top:50px; margin-left: 50px">
@@ -124,37 +124,61 @@
 <div class="comp-block">
     <h1 class="products-header">Компании, с которыми мы работаем</h1>
     <div class="col-md-3 light_div" style="height: 200px">
-        <img src="static/google.png" class="comp-icon">
+        <img src="companies/burger_king_izmir_kipa_avm_restorant_c.png" style="height: 150px; position: absolute; margin-top: 25px;">
+        <img src="companies/burger_king_izmir_kipa_avm_restorant_c1.png" style="height: 150px; position: relative; margin-top: 25px;" class="icon">
     </div>
     <div class="col-md-3 dark_div" style="height: 200px">
-        <img src="static/google.png" class="comp-icon">
+        <img src="companies/alidi.jpg" style="height: 90px; position: absolute; margin-top: 60px" >
+        <img src="companies/alidi1.jpg" style="height: 90px; position: relative; margin-top: 60px" class="icon">
     </div>
     <div class="col-md-3 light_div" style="height: 200px">
-        <img src="static/google.png" class="comp-icon">
+        <img src="companies/binbank.jpeg" style="height: 120px; position: absolute; margin-top: 50px;">
+        <img src="companies/binbank1.jpg" style="height: 120px; position: relative; margin-top: 50px;" class="icon">
     </div>
     <div class="col-md-3 dark_div" style="height: 200px">
-        <img src="static/google.png" class="comp-icon">
+        <img src="companies/dyson.gif" style="height: 90px; position: absolute; margin-top:55px">
+        <img src="companies/dyson.png" style="height: 90px; position: relative; margin-top:55px" class="icon">
     </div>
     <div class="col-md-3 dark_div" style="height: 200px">
-        <img src="static/google.png" class="comp-icon">
+        <img src="companies/j&j.png" style="height: 180px; position: absolute; margin-top: 20px;">
+        <img src="companies/j&j1.png" style="height: 180px; position: relative; margin-top: 20px;" class="icon">
     </div>
     <div class="col-md-3 light_div" style="height: 200px">
-        <img src="static/google.png" class="comp-icon">
+        <img src="companies/duracell.png" style="height: 30px; position: absolute; margin-top: 90px;">
+        <img src="companies/duracell1.png" style="height: 30px; position: relative; margin-top: 90px;" class="icon">
     </div>
     <div class="col-md-3 dark_div" style="height: 200px">
-        <img src="static/google.png" class="comp-icon">
+        <img src="companies/Gibson.png" style="height: 120px; position: absolute; margin-top: 60px;">
+        <img src="companies/Gibson1.png" style="height: 120px; position: relative; margin-top: 60px;" class="icon">
     </div>
     <div class="col-md-3 light_div" style="height: 200px">
-        <img src="static/google.png" class="comp-icon">
+        <img src="companies/Kimberly-Clark.jpg" style="height: 60px; position: absolute; margin-top: 70px;">
+        <img src="companies/Kimberly-Clark1.jpg" style="height: 60px; position: relative; margin-top: 70px;" class="icon">
+    </div>
+    <div class="col-md-3 light_div" style="height: 200px">
+        <img src="companies/loreal.png" style="height: 70px; position: absolute; margin-top: 65px">
+        <img src="companies/loreal1.png" style="height: 70px; position: relative; margin-top: 65px" class="icon">
+    </div>
+    <div class="col-md-3 dark_div" style="height: 200px">
+        <img src="companies/nestle.jpeg" style="height: 140px; position: absolute; margin-top: 20px">
+        <img src="companies/nestle1.jpg" style="height: 140px; position: relative; margin-top: 20px" class="icon">
+    </div>
+    <div class="col-md-3 light_div" style="height: 200px">
+        <img src="companies/philips.jpg" style="height: 150px; position: absolute; margin-top: 20px">
+        <img src="companies/philips1.jpg" style="height: 150px; position: relative; margin-top: 20px" class="icon">
+    </div>
+    <div class="col-md-3 dark_div" style="height: 200px">
+        <img src="companies/QUintles.jpg" style="height: 150px; position: absolute; margin-top: 20px">
+        <img src="companies/QUintles1.jpg" style="height: 150px; position: relative; margin-top: 20px" class="icon">
     </div>
 </div>
 <div style="text-align: center; margin-top: 30px;">
     <a href="#" class="btn btn-sm btn-custom">Все компании</a>
 </div>
-<a name="about"></a>
 <div style="background: rgba(240, 240, 245, 1); margin-top: 80px;">
+    <a name="about" style="color: rgba(240, 240, 245, 1);">products</a>
     <h1 class="products-header">Кто мы?</h1>
-    <h3 class="products-text">Мы команда бизнес-тренеров, которая поможет вам стать счастливее</h3>
+    <h3 class="products-text">Мы команда бизнес-тренеров, которая поможет вам стать эффективнее</h3>
     <div class="col-md-offset-3 col-md-3" style="margin-top: 20px; text-align: center;">
         <img src="static/Arkadiy.png" height="350px">
     </div>
@@ -165,21 +189,33 @@
         <div class="col-md-offset-3 col-md-3" style="text-align: center">
             <h3>Аркадий Коваленко</h3>
             <h4 class="products-text">Бизнес-тренер</h4>
-            <img src="static/facebook_icon_green.png" height="20px">
-            <img src="static/linkedin.png" height="20px" style="margin-left:10px">
-            <img src="static/skype_icon.png" height="20px" style="margin-top: 5px; margin-left: 10px">
+            <a style="margin-left:40px">
+                <img src="static/facebook_icon_white.png" height="20px">
+            </a>
+            <a>
+                <img src="static/linkedin_white.png" height="20px" style="margin-bottom: 10px;">
+            </a>
+            <a>
+                <img src="static/skype_icon_white.png" height="20px">
+            </a>
         </div>
         <div class="col-md-3" style="text-align: center; margin-left: 20px;">
-            <h3>Роман Рычажков</h3>
-            <h4 class="products-text">Бизнес-блогер</h4>
-            <img src="static/facebook_icon_green.png" height="20px">
-            <img src="static/linkedin.png" height="20px" style="margin-left:10px">
-            <img src="static/skype_icon.png" height="20px" style="margin-top: 5px; margin-left: 10px">
+            <h3 style="margin-left: 20px;">Роман Рычажков</h3>
+            <h4 class="products-text" style="margin-left: 20px;">Бизнес-блогер</h4>
+            <a style="margin-left:50px">
+                <img src="static/facebook_icon_white.png" height="20px">
+            </a>
+            <a>
+                <img src="static/linkedin_white.png" height="20px" style="margin-bottom: 10px;">
+            </a>
+            <a>
+                <img src="static/skype_icon_white.png" height="20px">
+            </a>
         </div>
     </div>
 </div>
 <div style="text-align: center; margin-top:0px; margin-bottom: 30px;">
-    <a href="#" class="btn btn-sm btn-custom">О нас</a>
+    <a href="aboutus.php" class="btn btn-sm btn-custom">О нас</a>
 </div>
 <div class="bottom-block">
     <div class="bottom-left">
@@ -191,7 +227,10 @@
         <h4>site@zaryadka.biz</h4>
     </div>
 </div>
+<script src="jquery-3.2.1.js"></script>
 <script src="jquery.min.js"></script>
+<script src="jquery.scroolly.js"></script>
+<script src="jquery.my.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

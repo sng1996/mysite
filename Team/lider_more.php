@@ -22,10 +22,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" style="margin-right: 2vw;">
-                <li><a class="toptext" href="#products">Продукты</a></li>
+                <li><a class="toptext" href="main.php#products">Продукты</a></li>
                 <li><a class="toptext" href="blog.php">Блог</a></li>
-                <li><a class="toptext" href="#about">О нас</a></li>
-                <li><a class="toptext" href="#saying">Отзывы</a></li>
+                <li><a class="toptext" href="main.php#about">О нас</a></li>
+                <li><a class="toptext" href="main.php#saying">Отзывы</a></li>
                 <li style="margin-left: 5vw">
                     <form class="navbar-form navbar-right">
                         <a href="#" class="btn btn-sm btn-custom">Войти</a>
